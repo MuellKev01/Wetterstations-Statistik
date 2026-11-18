@@ -23,7 +23,7 @@ public class Main {
                         max = j;
                     }
                     else if (j < min) {
-                       System.out.println("niegrigste Wert");
+                       System.out.println("niedrigster Wert");
                        min = j;
                     }
                         System.out.println(j + " Summe: " + summe);
