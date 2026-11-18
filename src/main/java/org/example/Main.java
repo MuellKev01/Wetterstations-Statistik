@@ -24,7 +24,7 @@ public class Main {
                     else if (j < min) {
                        min = j;
                     }
-                        System.out.println(j + " Summe: " + summe);
+                        System.out.println("aktueller Wert: " + j + " neue Summe: " + summe);
                     }
                 double average = summe / messungen.length;
                         System.out.println("Durchschnittswert aller Tage: " + average);
