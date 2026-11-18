@@ -19,17 +19,19 @@ public class Main {
                         anlageTage++;
                     }
                     if (j > max) {
-                        System.out.println("höchste Wert");
                         max = j;
                     }
                     else if (j < min) {
-                       System.out.println("niedrigster Wert");
                        min = j;
                     }
                         System.out.println(j + " Summe: " + summe);
                     }
                 double average = summe / messungen.length;
-                        System.out.println("average: " + average);
+                        System.out.println("Durchschnittswert aller Tage: " + average);
+
+                        System.out.println(max + ": höchste Wert");
+
+                        System.out.println(min + ": niedrigster Wert");
 
                         System.out.println("Tage die wärmer als 20° sind: " + anlageTage);
         }
